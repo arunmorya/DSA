@@ -24,11 +24,11 @@ int knapSack(int W, int wt[], int val[], int n)
 int main()
 {
     int val[] = { 10, 20, 30 }; 
-	int wt[] = { 1, 1, 1 }; 
-	int W = 2; 
-	int n = sizeof(val) / sizeof(val[0]); 
+    int wt[] = { 1, 1, 1 }; 
+    int W = 2; 
+    int n = sizeof(val) / sizeof(val[0]); 
     //setting all element to -1 in table(matrix)
     memset(arr,-1,sizeof(arr));
-	cout << knapSack(W, wt, val, n); 
+    cout << knapSack(W, wt, val, n); 
     return 0;
 }
