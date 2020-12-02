@@ -23,8 +23,6 @@ int main()
     int wt[] = { 1, 1, 1 }; 
     int W = 2; 
     int n = sizeof(val) / sizeof(val[0]); 
-    //setting all element to -1 in table(matrix)
-    //memset(arr,-1,sizeof(arr));
     cout << knapSack(W, wt, val, n); 
     return 0;
 }
