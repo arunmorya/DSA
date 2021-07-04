@@ -49,8 +49,10 @@ void mergesort(int arr[],int l,int r){
 }
 int main() {
     int n;
+    cout<<"Enter Size:"<<"\n";
     cin>>n;
     int arr[n];
+    cout<<"Inter Array Elements:\n";
     for(int i=0; i<n; i++){
         cin>>arr[i];
     }
